@@ -4,6 +4,19 @@
 # 3. From list 2, take even numbers
 # 4. Return new list
 
+
+def number_list_ab(number_list_a, number_list_b):
+    merged_list = []
+
+    for num in number_list_a:
+        if num % 2 != 0:
+            merged_list.append(num)
+
+    for num in number_list_b:
+        if num % 2 == 0:
+            merged_list.append(num)
+
+    return merged_list
+
 number_list_a = [12, 13, 20, 0, 4,]
 number_list_b = [5, 9, 20, 0, 5, 8]
-
