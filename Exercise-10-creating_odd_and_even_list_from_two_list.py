@@ -4,3 +4,6 @@
 # 3. From list 2, take even numbers
 # 4. Return new list
 
+number_list_a = [12, 13, 20, 0, 4,]
+number_list_b = [5, 9, 20, 0, 5, 8]
+
